@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.background-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.836)),url(/Send/Images/Photo.jfif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+   
+    
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color:  #2e80cc;
+    transition: 0.3s all;
+}
+
+.logo, a{
+    color: rgb(34, 148, 78);
+    background: transparent;
+    text-decoration: none;
+    font-size: 60;
+    font-weight: 700;
+}
+
+.logo, a:hover{
+color: #2e80cc;
+transition: 0.3s all;
+}
+
+button{
+    color: #fff;
+    background: transparent;
+    border:solid 1px #2e80cc;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #2e80cc;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 120px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #2e80cc; 
+}
+
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.btn{
+    margin-top: 15px;
+}
